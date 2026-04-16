@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional vocal coaching with Elmira - Shape Your Sound. Online singing lessons for all levels.">
+    <meta name="keywords" content="vocal coach, singing lessons, voice training, online vocal lessons">
+    <meta name="author" content="Singsolia">
+    <title>Singsolia - Shape Your Sound | Professional Vocal Coaching</title>
+    
+    <!-- Inter Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation dots -->
+    <div class="nav-dots">
+        <span class="dot active" data-section="0"></span>
+        <span class="dot" data-section="1"></span>
+        <span class="dot" data-section="2"></span>
+        <span class="dot" data-section="3"></span>
+        <span class="dot" data-section="4"></span>
+        <span class="dot" data-section="5"></span>
+    </div>
+
+    <!-- Section 1: Hero with Video -->
+    <section class="section hero-section" id="section-0">
+        <div class="hero-content">
+            <div class="video-container">
+                <video id="heroVideo" loop muted playsinline poster="images/Snapshot_4.PNG">
+                    <source src="assets/No_tearas_left_to_cry.mp4" type="video/mp4">
+                </video>
+                <div class="video-controls">
+                    <button class="video-btn" id="muteBtn" aria-label="Mute/Unmute">
+                        <img src="icons/Mute.svg" alt="Mute" class="icon-mute">
+                    </button>
+                    <button class="video-btn" id="playPauseBtn" aria-label="Play/Pause">
+                        <img src="icons/Play.svg" alt="Play" class="icon-play">
+                        <img src="icons/Pause.svg" alt="Pause" class="icon-pause" style="display: none;">
+                    </button>
+                </div>
+            </div>
+            <h1 class="hero-title">Shape Your<br>Sound</h1>
+            <p class="hero-subtitle">Professional vocal coaching<br>for all levels</p>
+        </div>
+    </section>
+
+    <!-- Section 2: Values -->
+    <section class="section values-section" id="section-1">
+        <div class="container">
+            <h2 class="section-heading">Shape Your Voice.<br>Make It Bright.<br>Everyday.</h2>
+            
+            <div class="value-cards">
+                <div class="value-card">
+                    <div class="value-icon">
+                        <img src="icons/Star2.svg" alt="Vocal Stamina">
+                    </div>
+                    <h3>Vocal stamina</h3>
+                    <p>Healthy vocal habits that increase vocal stamina</p>
+                </div>
+
+                <div class="value-card">
+                    <div class="value-icon">
+                        <img src="icons/Star2.svg" alt="Vocal Range">
+                    </div>
+                    <h3>Vocal range expand</h3>
+                    <p>Vocal warm-up to expand voice capabilities include vocal range</p>
+                </div>
+
+                <div class="value-card">
+                    <div class="value-icon">
+                        <img src="icons/Star2.svg" alt="Personal Focus">
+                    </div>
+                    <h3>Personal focus</h3>
+                    <p>Problem definition to adapt the teaching style for your personal needs</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Meet Your Coach -->
+    <section class="section about-section" id="section-2">
+        <div class="container">
+            <h2 class="section-heading">Meet your<br>coach</h2>
+            
+            <div class="coach-profile">
+                <div class="coach-photo">
+                    <img src="images/phone_title_2.jpg" alt="Ema - Vocal Coach">
+                </div>
+                <div class="coach-info">
+                    <h3>Ema</h3>
+                    <p class="coach-role">Vocal coach</p>
+                </div>
+            </div>
+
+            <div class="bio-section">
+                <h4>Performance background</h4>
+                <p>Over 10 years performing in pop bands and a'capella groups. Participated in contests, jazz festivals, and TV shows ('X factor, Russia).</p>
+            </div>
+
+            <div class="bio-section">
+                <h4>Teaching experience</h4>
+                <p>15 years of coaching singers at all levels, from complete beginners to advanced performers preparing for competitions and musical education.</p>
+            </div>
+
+            <div class="philosophy-quote">
+                <p>"Stop emulating your idols. Start singing from your heart. Your authentic voice is what makes you unforgettable."</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Credentials -->
+    <section class="section credentials-section" id="section-3">
+        <div class="container">
+            <h2 class="section-heading">Credentials</h2>
+            
+            <div class="credentials-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="year">Year</button>
+                <button class="filter-btn" data-filter="recent">Recent</button>
+            </div>
+
+            <div class="credentials-grid">
+                <div class="credential-item" data-year="2024">
+                    <img src="images/minsk.jpg" alt="2024 Minsk Certificate">
+                    <div class="credential-info">
+                        <span class="credential-title">Title(country)</span>
+                        <div class="credential-meta">
+                            <span class="year">2024</span>
+                            <span class="tag">Recent</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="credential-item" data-year="2023">
+                    <img src="images/moscow_23.jpg" alt="2023 Moscow Certificate">
+                    <div class="credential-info">
+                        <span class="credential-title">Title</span>
+                        <div class="credential-meta">
+                            <span class="year">2023</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="credential-item" data-year="2023">
+                    <img src="images/Liza_2023.png" alt="2023 Student Award">
+                    <div class="credential-info">
+                        <span class="credential-title">Title</span>
+                        <div class="credential-meta">
+                            <span class="year">2023</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="credential-item" data-year="2021">
+                    <img src="images/germanyElmira.jpg" alt="2021 Germany Award">
+                    <div class="credential-info">
+                        <span class="credential-title">Title</span>
+                        <div class="credential-meta">
+                            <span class="year">2021</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Booking -->
+    <section class="section booking-section" id="section-4">
+        <div class="container">
+            <h2 class="section-heading">Booking</h2>
+            
+            <div class="pricing-cards">
+                <div class="price-card">
+                    <div class="price-header">
+                        <h3>Free trial</h3>
+                        <span class="price">0$</span>
+                    </div>
+                    <p class="price-desc">20-minute session to discuss your goals and try my teaching style</p>
+                </div>
+
+                <div class="price-card featured">
+                    <span class="badge">Most popular</span>
+                    <div class="price-header">
+                        <h3>Single lesson</h3>
+                        <span class="price">20$</span>
+                    </div>
+                    <p class="price-desc">1 hour lesson for occasional practice</p>
+                </div>
+
+                <div class="price-card">
+                    <div class="price-header">
+                        <h3>Package (4 lessons)</h3>
+                        <span class="price">70$</span>
+                    </div>
+                    <p class="price-desc">60-minute session for warmups and voice development</p>
+                    <div class="price-benefit">
+                        <p>Save 10$ per month.<br>One lesson a week</p>
+                    </div>
+                </div>
+            </div>
+
+            <a href="https://calendar.app.google/myWkcJU93B5vzonf7" target="_blank" rel="noopener noreferrer" class="cta-button">
+                View available slots
+            </a>
+        </div>
+    </section>
+
+    <!-- Section 6: Q&A and Contact -->
+    <section class="section qa-section" id="section-5">
+        <div class="container">
+            <h2 class="section-heading">Credentials</h2>
+            
+            <!-- Q&A Accordion -->
+            <div class="qa-accordion">
+                <div class="qa-item">
+                    <button class="qa-question">
+                        <span>What do I need for lessons?</span>
+                        <img src="icons/Arrow.svg" alt="Toggle" class="arrow">
+                    </button>
+                    <div class="qa-answer">
+                        <p>Desktop ZOOM app (required), comfortable space, stable internet connection, and a phone or computer with working microphone.</p>
+                    </div>
+                </div>
+
+                <div class="qa-item">
+                    <button class="qa-question">
+                        <span>Why is there an age restriction</span>
+                        <img src="icons/Arrow.svg" alt="Toggle" class="arrow">
+                    </button>
+                    <div class="qa-answer">
+                        <p>Online lessons work best for kids around 12+ years old. They can maintain attention and know how to use the digital tools we need in class.</p>
+                    </div>
+                </div>
+
+                <div class="qa-item">
+                    <button class="qa-question">
+                        <span>What happens in each lesson</span>
+                        <img src="icons/Arrow.svg" alt="Toggle" class="arrow">
+                    </button>
+                    <div class="qa-answer">
+                        <p>Warm-up routines, vocal training with songs, breath control techniques, agility and flexibility work, plus stage presence and performance skills.</p>
+                    </div>
+                </div>
+
+                <div class="qa-item">
+                    <button class="qa-question">
+                        <span>How many lessons per week?</span>
+                        <img src="icons/Arrow.svg" alt="Toggle" class="arrow">
+                    </button>
+                    <div class="qa-answer">
+                        <p>It depends on your goals. Some prefer a slower pace (1 lesson/week), while others want to quickly improve (2 lessons/week recommended).</p>
+                    </div>
+                </div>
+
+                <div class="qa-item">
+                    <button class="qa-question">
+                        <span>Cancelling lessons</span>
+                        <img src="icons/Arrow.svg" alt="Toggle" class="arrow">
+                    </button>
+                    <div class="qa-answer">
+                        <p>Yes! Free cancellation up to 24 hours before your scheduled lesson time.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Section -->
+            <div class="contact-section">
+                <h3>Let's be in touch</h3>
+                <div class="contact-buttons">
+                    <a href="https://t.me/singsolia" target="_blank" rel="noopener noreferrer" class="contact-btn">
+                        <img src="icons/Telegram.svg" alt="Telegram">
+                        <span>Follow me in telegram</span>
+                    </a>
+                    <a href="mailto:blendvoice@gmail.com" class="contact-btn">
+                        <img src="icons/Email.svg" alt="Email">
+                        <span>e-mail me</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
